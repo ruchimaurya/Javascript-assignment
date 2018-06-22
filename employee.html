@@ -1,0 +1,52 @@
+<html>
+	<head>
+	<title>Employe Detail</title>
+	<script type="text/javascript" src="script.js" >		
+	</script>
+	</head>
+	<body>
+		<form name="emp" id="emp" >
+			First Name:<br/>
+			<input type="text" name="firstname" id="fname" />
+			<br/><br/>
+			Last name:<br/>
+			<input type="text" name="lastname" id="lname" />
+			<br/><br/>
+			Email:<br/>
+			<input type="email" name="email" id="email"/>
+			<br/><br/>
+			Contact Number:<br/>
+			<input type="text" name="contact" id="contact"/>
+			<br/><br/>
+			Address:<br/>
+			<textarea name="Address" rows="2" cols="20" id="address"></textarea>
+			<br/><br/>
+			Username:<br/>
+			<input type="text" name="username" id="username"/>
+			<br/><br/>
+			Password:<br/>
+			<input type="password" name="password" id="password"/>
+			<br/><br/>
+			Gender<br/>
+			<input type="radio" name="gender" value="male" > Male<br/>
+			<input type="radio" name="gender" value="female" checked> Female<br/>
+			<br/><br/>
+			Qualification:<br/>
+			<select id="qlist" name="qlist">
+			  <option >--select--</option>
+			</select>
+			<br/><br/>
+			Experiance:<br/>
+			<select id="elist" name="elist">
+			  <option >--select--</option>
+			</select>
+			<br/><br/>
+			<div id="append" name="append">Coding Languages:<br/></div>
+			<br/><br/>
+						
+			 <input type="submit" value="Submit" onclick="submitForm()"><br/>
+		</form>
+
+	</body>
+
+</html>
